@@ -4,7 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Godmode Trade Ltd — Industrial Machinery</title>
-  <meta name="description" content="Godmode Trade Ltd — търговия с индустриални машини: цигарени линии, Rovema VFFS, Rovema SD75 и др." />
+  <meta name="description" content="Godmode Trade Ltd: цигарени линии, Rovema VFFS/SD75, апликатор на капаци за мокри кърпи." />
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,8 +16,10 @@
       <span>Godmode Trade Ltd</span>
     </div>
     <nav class="nav">
+      <a href="#hero" data-t="nav_home">Начало</a>
       <a href="#about" data-t="nav_about">За нас</a>
       <a href="#machines" data-t="nav_machines">Машини</a>
+      <a href="#wetwipes" data-t="nav_wipes">Мокри кърпи</a>
       <a href="#contact" data-t="nav_contact">Контакти</a>
     </nav>
     <div class="lang">
@@ -27,9 +30,14 @@
 </header>
 
 <main class="wrap">
-  <section class="hero">
-    <h1 data-t="hero_title">Иновативни индустриални решения</h1>
-    <p data-t="hero_sub">Професионални машини за цигарени линии и пакетиране на храни.</p>
+  <section id="hero" class="hero hero-centered card">
+    <img src="images/logo.png" alt="Godmode Logo" class="hero-logo">
+    <h1 class="hero-title">Godmode Trade Ltd</h1>
+    <p id="slogan" class="hero-slogan">Технологии за надеждно производство</p>
+    <div class="cta">
+      <a href="#machines" class="btn" data-t="cta_machines">Разгледай машините</a>
+      <a href="#contact" class="btn btn-outline" data-t="cta_contact">Контакти</a>
+    </div>
   </section>
 
   <section id="about" class="card center">
@@ -57,7 +65,7 @@
       <div class="text">
         <h3>ROVEMA VFFS</h3>
         <ul>
-          <li data-t="m2a">Вертикално оформяне, пълнене и запечатване (Form-Fill-Seal)</li>
+          <li data-t="m2a">Вертикално оформяне, пълнене и запечатване (Form‑Fill‑Seal)</li>
           <li data-t="m2b">Подходяща за snacks, кафе и прахообразни продукти; MAP опции</li>
           <li data-t="m2c">Хигиеничен дизайн и висока надеждност</li>
         </ul>
@@ -76,6 +84,25 @@
         </ul>
       </div>
     </article>
+  </section>
+
+  <section id="wetwipes" class="card">
+    <h2 class="center" data-t="wipes_title">Машина за поставяне на капаци — мокри кърпи</h2>
+    <div class="feature">
+      <div class="pic"><img src="images/wet-wipes-lid.jpg" alt="Wet Wipes Lid Applicator"></div>
+      <div class="text">
+        <h3 data-t="wipes_name">Wet Wipes Lid Applicator</h3>
+        <ul>
+          <li data-t="w1">Захранване: трифазно 380V, 50Hz</li>
+          <li data-t="w2">Мощност: ~12 kW</li>
+          <li data-t="w3">Проектна скорост: 110 опаковки/мин</li>
+          <li data-t="w4">Производствена скорост: 70–90 опаковки/мин</li>
+          <li data-t="w5">Размери на капака: височина 40–110 mm; ширина ≤80 mm; дължина ≤120 mm</li>
+          <li data-t="w6">Размери на етикет: ширина ≤60 mm; диаметър ≤300 mm</li>
+          <li data-t="w7">Точност на позициониране: ±1 mm; Брак &lt; 1%</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section id="contact" class="card center">
